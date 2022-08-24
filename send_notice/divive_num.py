@@ -10,7 +10,7 @@ class DivideNum:
 
 
     def convert_number(self):
-        self.to_pandas = pd.read_excel(self.raw_data)
+        self.to_pandas = pd.read_excel("./data/raw_data" + self.raw_data)
         num_list = self.to_pandas["Q2"]
 
         for _, num in enumerate(num_list):
@@ -19,5 +19,5 @@ class DivideNum:
 
 
     def export(self):
-        with open(self.output, "w") as file:
+        with open("./data/result" + self.output, "w") as file:
             file.write(self.new_num[1:])
