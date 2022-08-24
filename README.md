@@ -22,5 +22,13 @@
 이러한 문제들을 해결하여 업무 효율성과 정확도를 높이기 위해 python 기반의 업무 helper를 제작했습니다. <br/><br/>
 
 ## 프로젝트 구성
+- main.py : 프로그램을 실행시켜주는 파일
 
-추후 추가 예정
+- send_notice : 단체문자 전송에 관련된 Directory
+    * init.py
+    * divide_num.py : DB에서 전화번호를 받아와서 단체문자로 전송할 수 있게끔 전화번호 parsing
+<br><br>
+
+- check : DB관리에 관련된 Directory
+    * init.py
+    * check_db.py : 외부 DB에서 내부 DB로 정보 이동할 때, 누락되는 정보가 있었는지 확인
