@@ -14,8 +14,8 @@ class CheckDB:
             self.exception_list.append(inner_name_number)
 
         # 각 DB별 list 생성
-        self.inner_db =  pd.read_excel("./data/raw_data" + inner_db)
-        self.surveybox = pd.read_excel("./data/raw_data" + surveybox)
+        self.inner_db =  pd.read_excel("./data/raw_data/" + inner_db)
+        self.surveybox = pd.read_excel("./data/raw_data/" + surveybox)
 
         self.inner_db = self.inner_db.iloc[:, [1,2]]
         self.inner_db.columns = ["Q1", "Q2"]
