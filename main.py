@@ -1,5 +1,4 @@
-import argparse
-from send_notice.divive_num import DivideNum
+from send_notice.notice import DivideNum, SelectMessage
 from check.check_db import CheckDB
 
 # argparser보다 input으로 mode 설정하는것이 더 효율적이라고 판단하여 교체
@@ -25,6 +24,11 @@ def main():
 
         print("------------------------------")
         print("전화번호 추출 완료")
+        print("------------------------------")
+
+        select_message = SelectMessage()
+        select_message.print_notice()
+
         return
 
     if mode == "2":
