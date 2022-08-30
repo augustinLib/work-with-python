@@ -26,7 +26,10 @@
 
 - send_notice : 단체문자 전송에 관련된 Directory
     * init.py
-    * divide_num.py : DB에서 전화번호를 받아와서 단체문자로 전송할 수 있게끔 전화번호 parsing
+    * notice.py
+        -  DB에서 전화번호를 받아와서 단체문자로 전송할 수 있게끔 전화번호 parsing  
+        이후 parsing된 전화번호 개수 출력
+        - 현 상황에 맞는 안내 문자 자동으로 출력
 <br><br>
 
 - check : DB관리에 관련된 Directory
