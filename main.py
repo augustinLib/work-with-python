@@ -24,7 +24,6 @@ def main():
 
         print("------------------------------")
         print("전화번호 추출 완료")
-        print("------------------------------")
 
         select_message = SelectMessage()
         select_message.print_notice()

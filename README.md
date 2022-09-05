@@ -37,4 +37,4 @@
     * check_db.py : 외부 DB에서 내부 DB로 정보 이동할 때, 누락되는 정보가 있었는지 확인
 
 
-(추후 Javascript 기반의 Google Apps Script 추가 예정)
+<b>(추후 Javascript 기반의 Google Apps Script 추가 예정)</b>
