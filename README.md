@@ -36,4 +36,5 @@
     * init.py
     * check_db.py : 외부 DB에서 내부 DB로 정보 이동할 때, 누락되는 정보가 있었는지 확인  
 <br>
+
 - actorCompare.js : Google Apps Script를 활용하였으며, 스프레드시트 상에서 주/야간 중복값을 제외한 값을 return해주는 함수
